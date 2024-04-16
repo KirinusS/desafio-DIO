@@ -1,9 +1,9 @@
-let nomeHeroi = prompt('Digite o nome do herói: ')
-let xpDoHeroi = parseInt(prompt('Digite o XP do herói: '))
+let nomeHeroi = 'Super Mário'
+let xpDoHeroi = 5000
 
 let nivelDoHeroi
 
-if (xpDoHeroi < 1000) {
+if (xpDoHeroi <= 1000) {
     nivelDoHeroi = 'Ferro'
 } else if (xpDoHeroi >= 1001 && xpDoHeroi <= 2000) {
     nivelDoHeroi = 'Bronze'
@@ -17,7 +17,7 @@ if (xpDoHeroi < 1000) {
     nivelDoHeroi = 'Ascendente'
 } else if (xpDoHeroi >= 9001 && xpDoHeroi <= 10000) {
     nivelDoHeroi = 'Imortal'
-} else (xpDoHeroi >= 10001) {
+} else {
     nivelDoHeroi = 'Radiante'
 }
 
